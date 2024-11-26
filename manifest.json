@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "GaeaMyGuide",
+    "version": "1.0",
+    "description": "Saving the planet, one AI tip at a time.",
+    "permissions": ["geolocation", "activeTab", "scripting"],
+    "host_permissions": ["*://*/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "assets/icon.png"
+    },
+    "icons": {
+      "16": "assets/icon.png",
+      "48": "assets/icon.png",
+      "128": "assets/icon.png"
+    }
+  }
+  
